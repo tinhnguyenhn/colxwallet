@@ -5,12 +5,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/tinhnguyenhn/colxd/btcec"
+	"github.com/tinhnguyenhn/colxd/wire"
+	"github.com/tinhnguyenhn/colxutil"
+	"github.com/tinhnguyenhn/colxutil/hdkeychain"
+	"github.com/tinhnguyenhn/colxwallet/waddrmgr"
+	"github.com/tinhnguyenhn/colxwallet/walletdb"
 )
 
 const (

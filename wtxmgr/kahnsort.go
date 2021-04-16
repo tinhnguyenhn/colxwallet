@@ -5,8 +5,8 @@
 package wtxmgr
 
 import (
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/tinhnguyenhn/colxd/chaincfg/chainhash"
+	"github.com/tinhnguyenhn/colxd/wire"
 )
 
 type graphNode struct {

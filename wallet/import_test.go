@@ -5,12 +5,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/waddrmgr"
 	"github.com/stretchr/testify/require"
+	"github.com/tinhnguyenhn/colxd/chaincfg"
+	"github.com/tinhnguyenhn/colxd/txscript"
+	"github.com/tinhnguyenhn/colxutil"
+	"github.com/tinhnguyenhn/colxutil/hdkeychain"
+	"github.com/tinhnguyenhn/colxwallet/waddrmgr"
 )
 
 func hardenedKey(key uint32) uint32 {

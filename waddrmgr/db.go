@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/tinhnguyenhn/colxd/chaincfg/chainhash"
+	"github.com/tinhnguyenhn/colxwallet/walletdb"
 )
 
 const (

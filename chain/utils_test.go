@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/tinhnguyenhn/colxd/blockchain"
+	"github.com/tinhnguyenhn/colxd/chaincfg/chainhash"
+	"github.com/tinhnguyenhn/colxd/wire"
+	"github.com/tinhnguyenhn/colxutil"
 )
 
 // conn mocks a network connection by implementing the net.Conn interface. It is
@@ -63,7 +63,7 @@ func pipe(c1, c2 *conn) (*conn, *conn) {
 // returns the root of the tree.
 //
 // This function was copied from:
-//     https://github.com/btcsuite/btcd/blob/36a96f6a0025b6aeaebe4106821c2d46ee4be8d4/blockchain/fullblocktests/generate.go#L303
+//     https://github.com/tinhnguyenhn/colxd/blob/36a96f6a0025b6aeaebe4106821c2d46ee4be8d4/blockchain/fullblocktests/generate.go#L303
 func calcMerkleRoot(txns []*wire.MsgTx) chainhash.Hash {
 	if len(txns) == 0 {
 		return chainhash.Hash{}
@@ -83,7 +83,7 @@ func calcMerkleRoot(txns []*wire.MsgTx) chainhash.Hash {
 // with the solution.  False is returned if no solution exists.
 //
 // This function was copied from:
-//     https://github.com/btcsuite/btcd/blob/36a96f6a0025b6aeaebe4106821c2d46ee4be8d4/blockchain/fullblocktests/generate.go#L324
+//     https://github.com/tinhnguyenhn/colxd/blob/36a96f6a0025b6aeaebe4106821c2d46ee4be8d4/blockchain/fullblocktests/generate.go#L324
 func solveBlock(header *wire.BlockHeader) bool {
 	// sbResult is used by the solver goroutines to send results.
 	type sbResult struct {

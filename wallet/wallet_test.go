@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/tinhnguyenhn/colxwallet/walletdb"
+	"github.com/tinhnguyenhn/colxwallet/wtxmgr"
 
-	"github.com/btcsuite/btcutil"
+	"github.com/tinhnguyenhn/colxutil"
 )
 
 var (

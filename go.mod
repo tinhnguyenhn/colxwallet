@@ -1,15 +1,15 @@
-module github.com/btcsuite/btcwallet
+module github.com/tinhnguyenhn/colxwallet
 
 require (
-	github.com/btcsuite/btcd v0.21.0-beta.0.20210316172410-f86ae60936d7
+	github.com/tinhnguyenhn/colxd v0.21.0-beta.0.20210316172410-f86ae60936d7
 	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f
-	github.com/btcsuite/btcutil v1.0.3-0.20201208143702-a53e38424cce
-	github.com/btcsuite/btcutil/psbt v1.0.3-0.20201208143702-a53e38424cce
-	github.com/btcsuite/btcwallet/wallet/txauthor v1.0.0
-	github.com/btcsuite/btcwallet/wallet/txrules v1.0.0
-	github.com/btcsuite/btcwallet/wallet/txsizes v1.0.0
-	github.com/btcsuite/btcwallet/walletdb v1.3.4
-	github.com/btcsuite/btcwallet/wtxmgr v1.2.0
+	github.com/tinhnguyenhn/colxutil v1.0.3-0.20201208143702-a53e38424cce
+	github.com/tinhnguyenhn/colxutil/psbt v1.0.3-0.20201208143702-a53e38424cce
+	github.com/tinhnguyenhn/colxwallet/wallet/txauthor v1.0.0
+	github.com/tinhnguyenhn/colxwallet/wallet/txrules v1.0.0
+	github.com/tinhnguyenhn/colxwallet/wallet/txsizes v1.0.0
+	github.com/tinhnguyenhn/colxwallet/walletdb v1.3.4
+	github.com/tinhnguyenhn/colxwallet/wtxmgr v1.2.0
 	github.com/btcsuite/websocket v0.0.0-20150119174127-31079b680792
 	github.com/davecgh/go-spew v1.1.1
 	github.com/golang/protobuf v1.2.0
@@ -26,14 +26,14 @@ require (
 	google.golang.org/grpc v1.18.0
 )
 
-replace github.com/btcsuite/btcwallet/walletdb => ./walletdb
+replace github.com/tinhnguyenhn/colxwallet/walletdb => ./walletdb
 
-replace github.com/btcsuite/btcwallet/wtxmgr => ./wtxmgr
+replace github.com/tinhnguyenhn/colxwallet/wtxmgr => ./wtxmgr
 
-replace github.com/btcsuite/btcwallet/wallet/txauthor => ./wallet/txauthor
+replace github.com/tinhnguyenhn/colxwallet/wallet/txauthor => ./wallet/txauthor
 
-replace github.com/btcsuite/btcwallet/wallet/txrules => ./wallet/txrules
+replace github.com/tinhnguyenhn/colxwallet/wallet/txrules => ./wallet/txrules
 
-replace github.com/btcsuite/btcwallet/wallet/txsizes => ./wallet/txsizes
+replace github.com/tinhnguyenhn/colxwallet/wallet/txsizes => ./wallet/txsizes
 
 go 1.13

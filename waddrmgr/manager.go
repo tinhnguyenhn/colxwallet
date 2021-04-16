@@ -11,12 +11,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/internal/zero"
-	"github.com/btcsuite/btcwallet/snacl"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/tinhnguyenhn/colxd/chaincfg"
+	"github.com/tinhnguyenhn/colxutil"
+	"github.com/tinhnguyenhn/colxutil/hdkeychain"
+	"github.com/tinhnguyenhn/colxwallet/internal/zero"
+	"github.com/tinhnguyenhn/colxwallet/snacl"
+	"github.com/tinhnguyenhn/colxwallet/walletdb"
 )
 
 const (

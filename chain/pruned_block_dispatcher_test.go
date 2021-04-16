@@ -11,14 +11,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/peer"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btclog"
 	"github.com/lightningnetwork/lnd/ticker"
 	"github.com/stretchr/testify/require"
+	"github.com/tinhnguyenhn/colxd/btcjson"
+	"github.com/tinhnguyenhn/colxd/chaincfg"
+	"github.com/tinhnguyenhn/colxd/chaincfg/chainhash"
+	"github.com/tinhnguyenhn/colxd/peer"
+	"github.com/tinhnguyenhn/colxd/wire"
 )
 
 func init() {

@@ -11,11 +11,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/walletdb"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
 	"github.com/jessevdk/go-flags"
+	"github.com/tinhnguyenhn/colxutil"
+	"github.com/tinhnguyenhn/colxwallet/wallet"
+	"github.com/tinhnguyenhn/colxwallet/walletdb"
+	_ "github.com/tinhnguyenhn/colxwallet/walletdb/bdb"
 )
 
 const defaultNet = "mainnet"

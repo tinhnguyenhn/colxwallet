@@ -14,11 +14,11 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/rpc/legacyrpc"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/lightninglabs/neutrino"
+	"github.com/tinhnguyenhn/colxwallet/chain"
+	"github.com/tinhnguyenhn/colxwallet/rpc/legacyrpc"
+	"github.com/tinhnguyenhn/colxwallet/wallet"
+	"github.com/tinhnguyenhn/colxwallet/walletdb"
 )
 
 var (

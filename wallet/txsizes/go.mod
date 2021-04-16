@@ -1,9 +1,9 @@
-module github.com/btcsuite/btcwallet/wallet/txsizes
+module github.com/tinhnguyenhn/colxwallet/wallet/txsizes
 
 go 1.12
 
 require (
-	github.com/btcsuite/btcd v0.0.0-20190824003749-130ea5bddde3
+	github.com/tinhnguyenhn/colxd v0.0.0-20190824003749-130ea5bddde3
 	github.com/btcsuite/goleveldb v1.0.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/kr/pretty v0.1.0 // indirect
